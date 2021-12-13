@@ -1,1 +1,1 @@
-web: gunicorn app:camera_flask_app
+web: gunicorn camera_flask_app.wsgi
