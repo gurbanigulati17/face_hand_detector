@@ -1,1 +1,1 @@
-web: gunicorn wsg:camera_flask_app
+web: gunicorn app:camera_flask_app
